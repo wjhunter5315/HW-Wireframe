@@ -1,0 +1,109 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+body {
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color:#333;
+  background:lightskyblue;
+  font-size: 24px;
+}
+
+section {
+  float: left;
+}
+
+#left {
+  box-sizing: border-box;
+  text-align: center;
+  background: #333;
+  color: white;
+  font-size: 24px;
+  width: 33%;
+  height: 50px;
+  margin: 0 auto;
+}
+
+#middle {
+  box-sizing: border-box;
+  text-align: center;
+  background: gray;
+  color: white;
+  width: 33%;
+  height: 50px;
+  font-size: 24px;
+}
+
+#right {
+  box-sizing: border-box;
+  text-align: center;
+  background: #333;
+  color: white;
+  font-size: 24px;
+  width: 33%;
+  height: 50px;
+  
+}
+
+#full {
+  box-sizing: border-box;
+  text-align: center;
+  width: 45%;
+  height: 150px;
+  background: bisque;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#division {
+  box-sizing: border-box;
+  text-align: center;
+  width: 45%;
+  height: 75px;
+  background: beige;
+  margin: 0 auto;
+}
+
+aside {
+  box-sizing: border-box;
+  text-align: center;
+  width: 45%;
+  height: 150px;
+  background: peachpuff;
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 20px;
+  float: right;
+}
+
+footer {
+  padding: 20px;
+  background: lightskyblue;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  box-sizing: border-box;
+  text-align: center;
+  width: 90%;
+  height: 50%;
+}
